@@ -1,0 +1,18 @@
+extends ../includes/layout
+block main-content
+    .navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                a.navbar-brand(href="/") My site
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a.navbar-brand(href="/") Home
+                div(ng-include="'/partials/account/navbarLogin'")
+    section.content
+        div(ng-view)
+
+    footer.container.text-center
+        p &copy; My site Project
+
+
