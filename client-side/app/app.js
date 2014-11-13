@@ -10,7 +10,7 @@ angular.module('app').config(function($routeProvider, $locationProvider){
         .when('/sign-up',{templateUrl: '/partials/account/signup', controller: ''
         })
 
-        .when('/about',{templateUrl: '/partials/account/about', controller: 'testCtrl'
+        .when('/about',{templateUrl: '/partials/account/about', controller: ''
         })
 
 });
